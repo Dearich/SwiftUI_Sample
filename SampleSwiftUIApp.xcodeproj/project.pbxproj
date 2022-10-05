@@ -13,6 +13,10 @@
 		8FC99A6128EBEDA300A3A7D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC99A6028EBEDA300A3A7D7 /* Preview Assets.xcassets */; };
 		8FC99A6328EBEDA300A3A7D7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC99A6228EBEDA300A3A7D7 /* Persistence.swift */; };
 		8FC99A6628EBEDA300A3A7D7 /* SampleSwiftUIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FC99A6428EBEDA300A3A7D7 /* SampleSwiftUIApp.xcdatamodeld */; };
+		8FCC045428ED950C00B192CD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC044A28ED950C00B192CD /* ImagePicker.swift */; };
+		8FCC045728ED950C00B192CD /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC044E28ED950C00B192CD /* VisualEffectBlur.swift */; };
+		8FCC045C28EDED1800B192CD /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC045B28EDED1800B192CD /* GradientText.swift */; };
+		8FCC045E28EDED5C00B192CD /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC045D28EDED5C00B192CD /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8FC99A6228EBEDA300A3A7D7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8FC99A6528EBEDA300A3A7D7 /* SampleSwiftUIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleSwiftUIApp.xcdatamodel; sourceTree = "<group>"; };
 		8FC99A6728EBEDA300A3A7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCC044A28ED950C00B192CD /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8FCC044E28ED950C00B192CD /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		8FCC045B28EDED1800B192CD /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		8FCC045D28EDED5C00B192CD /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 			children = (
 				8FC99A5928EBEDA200A3A7D7 /* SampleSwiftUIAppApp.swift */,
 				8FC99A5B28EBEDA200A3A7D7 /* ContentView.swift */,
+				8FCC045B28EDED1800B192CD /* GradientText.swift */,
+				8FCC045D28EDED5C00B192CD /* GradientButton.swift */,
+				8FCC045A28ED9A5100B192CD /* Helpers */,
 				8FC99A5D28EBEDA300A3A7D7 /* Assets.xcassets */,
 				8FC99A6228EBEDA300A3A7D7 /* Persistence.swift */,
 				8FC99A6728EBEDA300A3A7D7 /* Info.plist */,
@@ -73,6 +84,15 @@
 				8FC99A6028EBEDA300A3A7D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FCC045A28ED9A5100B192CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8FCC044A28ED950C00B192CD /* ImagePicker.swift */,
+				8FCC044E28ED950C00B192CD /* VisualEffectBlur.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +167,10 @@
 			files = (
 				8FC99A6328EBEDA300A3A7D7 /* Persistence.swift in Sources */,
 				8FC99A5C28EBEDA200A3A7D7 /* ContentView.swift in Sources */,
+				8FCC045C28EDED1800B192CD /* GradientText.swift in Sources */,
+				8FCC045428ED950C00B192CD /* ImagePicker.swift in Sources */,
+				8FCC045728ED950C00B192CD /* VisualEffectBlur.swift in Sources */,
+				8FCC045E28EDED5C00B192CD /* GradientButton.swift in Sources */,
 				8FC99A5A28EBEDA200A3A7D7 /* SampleSwiftUIAppApp.swift in Sources */,
 				8FC99A6628EBEDA300A3A7D7 /* SampleSwiftUIApp.xcdatamodeld in Sources */,
 			);
